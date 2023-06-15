@@ -61,12 +61,12 @@ def render_main_app():
         if clicked:
             reload()
 
+
 if "user_authenticated" in st.session_state: # Prior authentication attempt has been made
     
-    if st.session_state["user_authenticated"]: # Authentication successful
+    if st.session_state["user_authenticated"]:  # Authentication successful
         render_main_app()
-
-    else: # Authentication failed
+    else:                                       # Authentication failed
         render_auth_form()
         st.error("Incorrect authentication details")
 
