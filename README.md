@@ -1,7 +1,7 @@
 # Streamlit-Django Integration
 
 Improving Streamlit interfaces with Django functionality.  
-Explanatory slides [here][1]
+Explanatory slides [here][1]  
 Inspiration from Thuwarakesh Murallie's [article][2] on Towards Data Science.  
 
 To run the code:  
